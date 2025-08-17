@@ -1,4 +1,3 @@
-import * as React from 'react';
 
 export interface Column<T extends Record<string, any>> {
   key: string;

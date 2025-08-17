@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 export type InputVariant = 'filled' | 'outlined' | 'ghost';
 export type InputSize = 'sm' | 'md' | 'lg';
 
