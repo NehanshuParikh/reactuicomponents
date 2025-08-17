@@ -1,6 +1,6 @@
 export type InputVariant = 'filled' | 'outlined' | 'ghost';
 export type InputSize = 'sm' | 'md' | 'lg';
-
+import React from "react";
 export interface InputFieldProps {
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import DataTable from './Datatable';
 import type { Column } from './Datatable';
+import React from "react";
 
 type User = {
   id: number;

@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import DataTable from './Datatable';
 import type { Column } from './Datatable';
-
+import React from "react";
 import { vi } from 'vitest';
 
 type Row = { id: number; name: string; age: number };

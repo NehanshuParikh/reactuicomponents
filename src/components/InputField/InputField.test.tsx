@@ -3,7 +3,7 @@ import '@testing-library/jest-dom'
 import '@testing-library/jest-dom';
 import { InputField } from './InputField';
 import { vi } from 'vitest';
-
+import React from "react";
 describe('InputField', () => {
   it('associates label with input', () => {
     render(<InputField label="Email" placeholder="e.g. user@example.com" />);
